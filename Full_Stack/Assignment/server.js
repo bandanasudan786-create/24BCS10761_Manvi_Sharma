@@ -5,7 +5,7 @@ const Registration = require("./Registration")
 const app = express()
 
 app.use(express.json());
-mongoose.connect("mongodb+srv://buser:bpassword@cluster0.27avgjh.mongodb.net/blogging")
+mongoose.connect("mongodb+srv://buser:bpassword@cluster0.xxavgjh.mongodb.net/Assignment")
     .then(()=>{
         console.log("DB Connected");
         app.listen(3000,()=>{
